@@ -1,0 +1,8 @@
+git config --global user.email <mailid>
+git config --global user.name <username>
+git init 
+git status
+git add .                #(stages all the file)
+git add file1 file2     #(stages each files mntioned)
+git commit -m "add file"
+
