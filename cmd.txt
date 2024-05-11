@@ -6,3 +6,20 @@ git add .                #(stages all the file)
 git add file1 file2     #(stages each files mntioned)
 git commit -m "add file"
 
+#after any canges it shows as saved
+git restore ---staged filename            #to remove from stage to downstage
+git log            #check all log
+
+git reset <comit id(from logs)>#reset at a particular commit 
+(it will be reflected in the statsus ie in the stage area)
+
+git stash (move to backstage)
+
+git stash pop(backstage to stage)
+
+git stash clean(delete from backstage no way to reover)
+
+
+git remote add origin https://github.com/VanshikaJainVj/learning-git.git  # attach a repo/url
+
+git remote -v #view all attached url
